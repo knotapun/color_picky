@@ -19,7 +19,7 @@ fn matrix_multiply3_3x3(thr: &[f64;3], mat: &[f64;9]) -> [f64;3] {
     ]
 }
 
-/// A representation of color via the LCH color spectrum, which is the lab color space in a polar coordinate system.                      
+/// A representation of color via the LCH color spectrum, which is the LAB color space in a polar coordinate system.                      
 pub struct LCH {
     /// Preceptual Lightness
     pub l: f64,
